@@ -42,7 +42,7 @@
             embedded: true,
             autoSlide: 3000,
             autoSlideStoppable: true,
-            mouseWheel: true,
+            mouseWheel: false,
             hideAddressBar: true,
             previewLinks: false,
             transition: 'default', // default/cube/page/concave/zoom/linear/fade/none

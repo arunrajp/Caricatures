@@ -30,7 +30,7 @@
                 </div>
                 <div class="navbar-collapse collapse" id="navbar-main">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class='<%= Request.Path.ToLower().Contains("caricaturecart.aspx") ? "active":"" %>'><a href="../CaricatureCart.aspx" target="_blank">Buy a Caricature</a></li>
+                        <li class='<%= Request.Path.ToLower().Contains("caricaturecart.aspx") ? "active":"" %>'><a href="../CaricatureCart.aspx">Buy a Caricature</a></li>
                         <li><a href="../Default.aspx#clients_speak">What Clients Say</a></li>
                         <li><a href="../Default.aspx#contact_us">Contact Us</a></li>
                     </ul>

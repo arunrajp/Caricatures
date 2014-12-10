@@ -44,8 +44,7 @@ embed
 .footer
 {
     margin-top: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 .footer-links li
@@ -76,11 +75,8 @@ embed
             color: #313131;
         }
 
-#bg
+.rounded-borderless
 {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
+    border: none;
+    border-radius: 3px;
 }
