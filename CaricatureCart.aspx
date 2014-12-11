@@ -30,11 +30,7 @@
                         <h3 class="panel-title">Categories</h3>
                     </div>
                     <div class="panel-body">
-                        <div class="list-group">
-                            <a href="#" class="list-group-item active">
-                                <h4 class="list-group-item-heading">All</h4>
-                                <p class="list-group-item-text">Lorem ipsum dolor sit amet, in est adipiscing mediocritatem, et appetere sadipscing eos. Omnis dicam id eos.</p>
-                            </a>
+                        <div id="divCategories" class="list-group" runat="server">
                             <a href="#" class="list-group-item">
                                 <h4 class="list-group-item-heading">Category #1</h4>
                                 <p class="list-group-item-text">Lorem ipsum dolor sit amet, in est adipiscing mediocritatem, et appetere sadipscing eos. Omnis dicam id eos.</p>
