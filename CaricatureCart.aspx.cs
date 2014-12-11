@@ -32,7 +32,7 @@ public partial class CaricatureCart : System.Web.UI.Page
             cartTemplateList +=
                     string.Format(
                         Constants.Templates.CartTemplateItem,
-                        template.url.Replace("/upload", "/upload/" + Constants.ThumbnailImage.ThumbnailTransform + "/"),
+                        template.url.Replace("/upload", "/upload/" + Constants.ThumbnailImage.ThumbnailTransform),
                         template.url,
                         template.public_id
                     );
