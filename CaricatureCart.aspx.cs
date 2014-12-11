@@ -1,5 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Web.Services;
 using System.Web.UI.HtmlControls;
+using Newtonsoft;
+using Newtonsoft.Json;
 
 public partial class CaricatureCart : System.Web.UI.Page
 {
@@ -9,13 +13,6 @@ public partial class CaricatureCart : System.Web.UI.Page
 
         string cartCategoryList = string.Empty;
         foreach (string category in cloudinaryManager.CaricaturesAccount.ListTags().Tags)
-            if (string.IsNullOrEmpty(cartCategoryList))
-                cartCategoryList +=
-                    string.Format(
-                        Constants.Templates.CartCategoryActiveItem,
-                        category
-                    );
-            else
                 cartCategoryList +=
                     string.Format(
                         Constants.Templates.CartCategoryInactiveItem,
@@ -23,6 +20,24 @@ public partial class CaricatureCart : System.Web.UI.Page
                     );
 
         setInnerHTML(divCategories, cartCategoryList);
+    }
+
+    [WebMethod]
+    public static string GetTemplates(string categoryName)
+    {
+        CaricaturesCloudinaryManager cloudinaryManager = new CaricaturesCloudinaryManager();
+
+        string cartTemplateList = string.Empty;
+        foreach (Resource template in cloudinaryManager.CaricaturesAccount.ListResourcesByTag(categoryName).JsonObj.ToObject<Templates>().resources)
+            cartTemplateList +=
+                    string.Format(
+                        Constants.Templates.CartTemplateItem,
+                        template.url.Replace("/upload", "/upload/" + Constants.ThumbnailImage.ThumbnailTransform + "/"),
+                        template.url,
+                        template.public_id
+                    );
+
+        return cartTemplateList;
     }
 
     #region Helper Methods

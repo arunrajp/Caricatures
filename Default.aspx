@@ -53,7 +53,7 @@
 
         <h1 id="contact_us">Contact Us</h1>
         <hr />
-        <div class="row">
+        <div class="row push-60-down">
             <div class="col-md-4">
                 <div class="control-label">First Name</div>
                 <div class="input-group">
