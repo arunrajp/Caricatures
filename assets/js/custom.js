@@ -2,6 +2,17 @@
     var categoryName = jQuery(element).attr('data-category');
 
     jQuery('[id$=progress]').modal('show');
+
+    jQuery(document).find('[class^=list-group-item]').each(
+        function (index, element) {
+            if (jQuery(element).prop('tagName') === 'A')
+                if (jQuery(element).attr('data-category') === categoryName)
+                    jQuery(element).attr('class', 'list-group-item active');
+                else
+                    jQuery(element).attr('class', 'list-group-item');
+        }
+    );
+
     jQuery.ajax({
         type: "POST",
         url: "CaricatureCart.aspx/GetTemplates",

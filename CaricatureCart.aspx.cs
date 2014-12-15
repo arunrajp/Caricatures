@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Web.Services;
 using System.Web.UI.HtmlControls;
-using Newtonsoft;
-using Newtonsoft.Json;
+using CloudinaryDotNet.Actions;
 
 public partial class CaricatureCart : System.Web.UI.Page
 {
@@ -28,6 +26,7 @@ public partial class CaricatureCart : System.Web.UI.Page
         CaricaturesCloudinaryManager cloudinaryManager = new CaricaturesCloudinaryManager();
 
         string cartTemplateList = string.Empty;
+        
         foreach (Resource template in cloudinaryManager.CaricaturesAccount.ListResourcesByTag(categoryName).JsonObj.ToObject<Templates>().resources)
             cartTemplateList +=
                     string.Format(
