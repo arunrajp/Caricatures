@@ -11,23 +11,23 @@
         <div id="slider" class="flexslider">
             <ul class="slides">
                 <li>
-                    <img src="assets/images/recent/PIC1.png" />
+                    <img src="assets/images/recent/PIC1.jpg" />
                     <p class="flex-caption">Caption for Picture 1</p>
                 </li>
                 <li>
-                    <img src="assets/images/recent/PIC2.png" />
+                    <img src="assets/images/recent/PIC2.jpg" />
                     <p class="flex-caption">Caption for Picture 2</p>
                 </li>
                 <li>
-                    <img src="assets/images/recent/PIC3.png" />
+                    <img src="assets/images/recent/PIC3.jpg" />
                     <p class="flex-caption">Caption for Picture 3</p>
                 </li>
                 <li>
-                    <img src="assets/images/recent/PIC4.png" />
+                    <img src="assets/images/recent/PIC4.jpg" />
                     <p class="flex-caption">Caption for Picture 4</p>
                 </li>
                 <li>
-                    <img src="assets/images/recent/PIC5.png" />
+                    <img src="assets/images/recent/PIC5.jpg" />
                     <p class="flex-caption">Caption for Picture 5</p>
                 </li>
             </ul>
