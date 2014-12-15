@@ -59,7 +59,6 @@ embed
 /*-----------------------------------*/
 .thumbnail
 {
-    width: 400px;
     height: 420px;
     overflow: auto;
 }
