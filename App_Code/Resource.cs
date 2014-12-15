@@ -1,5 +1,16 @@
 ﻿using System.Collections.Generic;
 
+public class Custom
+{
+    public string alt { get; set; }
+    public string caption { get; set; }
+}
+
+public class Context
+{
+    public Custom custom { get; set; }
+}
+
 public class Resource
 {
     public string public_id { get; set; }
@@ -13,6 +24,7 @@ public class Resource
     public int height { get; set; }
     public string url { get; set; }
     public string secure_url { get; set; }
+    public Context context { get; set; }
 }
 
 public class Templates

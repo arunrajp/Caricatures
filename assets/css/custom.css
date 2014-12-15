@@ -57,6 +57,13 @@ embed
 /*-----------------------------------*/
 /*-------------THUMBNAIL-------------*/
 /*-----------------------------------*/
+.thumbnail
+{
+    width: 400px;
+    height: 420px;
+    overflow: auto;
+}
+
 .thumbnail .caption
 {
     overflow-x: auto;

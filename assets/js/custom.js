@@ -23,6 +23,9 @@
             jQuery('[id$=divTemplates]').html(response.d);
             jQuery('[id$=progress]').modal('hide');
             jQuery('[id$=divSelCategoryAlert]').hide();
+            jQuery('.large-template').magnificPopup({
+                type: 'image'
+            });
         },
         failure: function (response) {
             jQuery('[id$=progress]').modal('hide');
