@@ -11,23 +11,23 @@
         <div id="slider" class="flexslider">
             <ul class="slides">
                 <li>
-                    <img src="assets/images/recent/PIC1.jpg" />
+                    <img src="http://res.cloudinary.com/thecaricatures/image/upload/c_scale,w_727/v1418718639/Abstract/PIC1.jpg" />
                     <p class="flex-caption">Caption for Picture 1</p>
                 </li>
                 <li>
-                    <img src="assets/images/recent/PIC2.jpg" />
+                    <img src="http://res.cloudinary.com/thecaricatures/image/upload/c_scale,w_727/v1418718639/Abstract/PIC2.jpg" />
                     <p class="flex-caption">Caption for Picture 2</p>
                 </li>
                 <li>
-                    <img src="assets/images/recent/PIC3.jpg" />
+                    <img src="http://res.cloudinary.com/thecaricatures/image/upload/c_scale,w_727/v1418718638/Abstract/PIC3.jpg" />
                     <p class="flex-caption">Caption for Picture 3</p>
                 </li>
                 <li>
-                    <img src="assets/images/recent/PIC4.jpg" />
+                    <img src="http://res.cloudinary.com/thecaricatures/image/upload/c_scale,w_727/v1418718641/Abstract/PIC4.jpg" />
                     <p class="flex-caption">Caption for Picture 4</p>
                 </li>
                 <li>
-                    <img src="assets/images/recent/PIC5.jpg" />
+                    <img src="http://res.cloudinary.com/thecaricatures/image/upload/c_scale,w_727/v1418718639/Abstract/PIC5.jpg" />
                     <p class="flex-caption">Caption for Picture 5</p>
                 </li>
             </ul>
@@ -53,7 +53,7 @@
 
         <h1 id="contact_us">Contact Us</h1>
         <hr />
-        <div class="row push-60-down">
+        <div class="row push-70-down">
             <div class="col-md-4">
                 <div class="control-label">First Name</div>
                 <div class="input-group">

@@ -43,9 +43,9 @@ embed
 /*-----------------------------------*/
 /*---------------FORM----------------*/
 /*-----------------------------------*/
-.push-80-down
+.push-70-down
 {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 
 .rounded-borderless
@@ -60,12 +60,8 @@ embed
 .thumbnail
 {
     height: 420px;
-    overflow: auto;
-}
-
-.thumbnail .caption
-{
-    overflow-x: auto;
+    overflow:hidden;
+    position: relative;
 }
 
 /*-----------------------------------*/

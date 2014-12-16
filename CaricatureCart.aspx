@@ -1,8 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage/Main.master" AutoEventWireup="true" CodeFile="CaricatureCart.aspx.cs" Inherits="CaricatureCart" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <script src="assets/js/jquery.magnific-popup.js"></script>
     <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/perfect-scrollbar.css" rel="stylesheet" />
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/perfect-scrollbar.js"></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="Server">
     <div class="modal fade" id="progress" tabindex="-1" role="dialog">
